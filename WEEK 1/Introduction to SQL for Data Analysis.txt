@@ -1,4 +1,4 @@
-INTRODUCTION TO SQL FOR DATA ANALYSIS
+INTRODUCTION TO SQL FOR DATA ANALYSIS.
 
 Structured Query Language (SQL) is a programming language used to manage and manipulate relational databases.
  It is an essential tool for data analysts, as it allows them to extract insights from large datasets.
