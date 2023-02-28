@@ -1,0 +1,52 @@
+Introduction to SQL for Data Analysis
+
+Structured Query Language (SQL) is a programming language used to manage and manipulate relational databases.
+ It is an essential tool for data analysts, as it allows them to extract insights from large datasets.
+ SQL can be used to extract, filter, and aggregate data, making it an essential tool for data analysis.
+
+Relational databases are composed of tables that contain data.
+Each table consists of columns and rows.
+The columns represent the attributes of the data, and the rows represent the individual data points.
+SQL allows analysts to interact with these tables and extract the information they need.
+
+SQL syntax is straightforward and simple to learn. 
+It can be used to retrieve data from a single table, multiple tables, or to join tables.
+The language is based on a set of commands, or keywords, which are used to retrieve data from a database.
+
+The SELECT statement is the most common command in SQL.
+It is used to retrieve data from one or more tables.
+The syntax of the SELECT statement is as follows:
+
+-SELECT column_name(s) FROM table_name;
+
+For example, to retrieve all the data from a table called "customers," you would use the following SQL statement:
+
+-SELECT * FROM customers;
+
+The asterisk (*) in the above statement means "all columns."
+
+SQL can also be used to filter data using the WHERE clause.
+The WHERE clause allows you to specify conditions that must be met in order for the data to be retrieved.
+For example, to retrieve all the data from a table called "customers" 
+where the customer's last name is "Smith," you would use the following SQL statement:
+
+example:
+-SELECT * FROM customers WHERE last_name = 'Smith';
+
+The above statement retrieves all data from the "customers" table where the "last_name" column equals "Smith."
+
+SQL also provides several functions for data analysis, including aggregate functions. 
+These functions allow analysts to perform calculations on the data, such as calculating the average or sum of a column.
+Examples of aggregate functions include SUM, AVG, MIN, and MAX. 
+
+The syntax for an aggregate function is as follows:
+
+-SELECT function_name(column_name) FROM table_name;
+
+For example, to calculate the average age of all customers in a table called "customers," you would use the following SQL statement:
+
+-SELECT AVG(age) FROM customers;
+
+Understanding SQL is essential for data analysts, as it is a fundamental tool for data analysis. 
+By mastering SQL, analysts can unlock the full potential of their data and gain valuable insights into their business or organization.
+This helps organisations to be able to make informed decisions hence increasing their productivity.
