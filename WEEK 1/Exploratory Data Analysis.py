@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# to load the dataset
+# To load the dataset
 df = pd.read_csv('IT Salary Survey for EU region.csv') 
 
 #data cleaning
